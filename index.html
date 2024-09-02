@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cash Register Project</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <h1>Cash Register Project</h1>
+  <div class="cash-register-container">
+    <div>
+      <h3>The amount of cash in the drawer:</h3>
+      <ul>
+        <li>Penny: <span id="penny">1.87</span></li>
+        <li>Nickel: <span id="nickel"></span></li>
+        <li>Dime: <span id="dime"></span></li>
+        <li>Quarter: <span id="quarter"></span></li>
+        <li>One: <span id="one"></span></li>
+        <li>Five: <span id="five"></span></li>
+        <li>Ten: <span id="ten"></span></li>
+        <li>Twenty: <span id="twenty"></span></li>
+        <li>One Hundred: <span id="one-hundred"></span></li>
+      </ul>
+    </div>
+    <div class="total-container">
+  <label>Total:</label>
+  $<span class="total-price"></span>
+   </div>
+ </div>
+  <!-- <div>
+    <label>Price:</label>
+    <input class="price-input" placeholder="enter the price of the item">
+  </div> -->
+  <div class="cash-container">
+    <label>Cash:</label>
+    <input type="number" id="cash" class="cash-input" placeholder="enter the amount of cash">
+  </div>
+
+  <div class="purchase-btn">
+    <button id="purchase-btn">Purchase</button>
+  </div>
+
+  <div id="change-due" class="verdict"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
